@@ -1,12 +1,16 @@
 {
  "actions": [],
  "allow_rename": 1,
- "creation": "2026-01-05 15:17:01.981869",
+ "autoname": "field:event_name",
+ "creation": "2026-01-05 21:47:28.126512",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
   "events_details_section",
-  "name1"
+  "event_name",
+  "date",
+  "venue",
+  "budget"
  ],
  "fields": [
   {
@@ -15,18 +19,41 @@
    "label": "Events Details"
   },
   {
-   "fieldname": "name1",
+   "fieldname": "event_name",
    "fieldtype": "Data",
-   "label": "Name"
+   "in_list_view": 1,
+   "label": "Event Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "venue",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Venue",
+   "reqd": 1
+  },
+  {
+   "fieldname": "budget",
+   "fieldtype": "Currency",
+   "label": "Budget"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-01-05 15:17:22.378720",
+ "modified": "2026-01-05 21:51:13.650576",
  "modified_by": "Administrator",
  "module": "Poss Crm",
- "name": "Events",
+ "name": "Club Events",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {

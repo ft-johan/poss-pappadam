@@ -5,5 +5,5 @@
 from frappe.model.document import Document
 
 
-class eventlayout(Document):
+class ClubMeetings(Document):
 	pass

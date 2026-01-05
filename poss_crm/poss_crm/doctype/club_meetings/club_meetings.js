@@ -1,7 +1,7 @@
 // Copyright (c) 2026, jo and contributors
 // For license information, please see license.txt
 
-// frappe.ui.form.on("event layout", {
+// frappe.ui.form.on("Club Meetings", {
 // 	refresh(frm) {
 
 // 	},
